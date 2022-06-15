@@ -1,0 +1,44 @@
+@import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: $bg2;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#root {
+    height: 100%;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    padding: 0.75rem 0.75rem;
+    border-radius: $borderRadius;
+    background: $primary;
+    color: $dark;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+    margin: 5px;
+    font-size: 30px;
+
+    &:hover {
+        border-color: $primary;
+        background: rgba($primary, 0.1);
+        color: $primary;
+    }
+    &:active {
+        border-color: $primary;
+        background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+        color: $primary;
+    }
+}
+button a {
+    text-decoration: none;
+}
