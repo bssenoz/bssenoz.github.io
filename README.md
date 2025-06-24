@@ -1,75 +1,60 @@
-# Nuxt Minimal Starter
+# Nuxt.js Portfolio App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a portfolio application developed with Nuxt.js 3.
 
-## Setup
+## 🚀 GitHub Pages Deployment
 
-Make sure to install dependencies:
+This project is automatically deployed to GitHub Pages.
+
+### Deployment Steps:
+
+1. **Push the repository to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **GitHub Repository Settings:**
+   - Go to your repository's Settings tab
+   - Find the Pages section
+   - Select "GitHub Actions" as the source
+
+3. **Automatic Deployment:**
+   - Your project will be automatically deployed every time you push to the `main` branch
+   - The GitHub Actions workflow will build the project and upload it to GitHub Pages
+
+### Local Development:
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server
 npm run dev
 
-# pnpm
-pnpm dev
+# Production build
+npm run generate
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# Preview
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Important Notes:
+
+- The project is configured with `target: 'static'` and `ssr: false`
+- `baseURL` is automatically configured for GitHub Pages
+- All static files are generated in the `.output/public` folder
+
+### Technologies:
+
+- Nuxt.js 3
+- Vue 3
+- Tailwind CSS
+- TypeScript
+- i18n (Turkish/English)
+- Pinia (State Management)
+
+## 📝 License
+
+This project is licensed under the MIT License. 
