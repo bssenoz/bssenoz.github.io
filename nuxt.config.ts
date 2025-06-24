@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'robots', content: 'index, follow' },
         { name: 'description', content: 'Buse Şenöz - Frontend Developer specializing in JavaScript, Vue.js, and modern web technologies.' },
-        { name: 'og:title', content: 'Buse Şenöz - Frontend Developer' },
+        { name: 'og:title', content: 'Buse Şenöz - Computer Engineer' },
         { name: 'og:description', content: 'Frontend Developer specializing in JavaScript, Vue.js, and modern web technologies.' },
         { name: 'og:url', content: 'https://bssenoz.github.io/' },
         { name: 'og:type', content: 'website' },
