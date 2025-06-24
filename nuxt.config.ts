@@ -2,7 +2,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
 
+  ssr: false,
+  target: 'static',
   app: {
+    baseURL: '/',
     head: {
       link: [
         { rel: "apple-touch-icon", sizes: "57x57", href: "/apple-icon-57x57.png" },
