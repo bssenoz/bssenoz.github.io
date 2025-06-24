@@ -24,6 +24,13 @@ This project is automatically deployed to GitHub Pages.
    - Your project will be automatically deployed every time you push to the `main` branch
    - The GitHub Actions workflow will build the project and upload it to GitHub Pages
 
+### Important Notes:
+
+- **Special Repository Name**: This repository is named `bssenoz.github.io`, which means it will be available at `https://bssenoz.github.io/` (root domain)
+- The project is configured with `target: 'static'` and `ssr: false`
+- `baseURL` is set to `/` for root domain deployment
+- All static files are generated in the `.output/public` folder
+
 ### Local Development:
 
 ```bash
@@ -39,12 +46,6 @@ npm run generate
 # Preview
 npm run preview
 ```
-
-### Important Notes:
-
-- The project is configured with `target: 'static'` and `ssr: false`
-- `baseURL` is automatically configured for GitHub Pages
-- All static files are generated in the `.output/public` folder
 
 ### Technologies:
 

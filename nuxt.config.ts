@@ -4,10 +4,8 @@ export default defineNuxtConfig({
 
   ssr: false,
   target: 'static',
-  
-  // GitHub Pages için baseURL ayarı
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/nuxt-app/' : '/',
+    baseURL: '/',
     head: {
       link: [
         { rel: "apple-touch-icon", sizes: "57x57", href: "/apple-icon-57x57.png" },
@@ -33,7 +31,6 @@ export default defineNuxtConfig({
     }
   },
 
-  // GitHub Pages için nitro ayarları
   nitro: {
     prerender: {
       routes: ['/']
