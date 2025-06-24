@@ -24,12 +24,23 @@ export default defineNuxtConfig({
         { rel: "manifest", href: "/manifest.json" }
       ],
       meta: [
+        { charset: 'utf-8' },
+        { name: 'robots', content: 'index, follow' },
+        { name: 'description', content: 'Buse Şenöz - Computer Engineer' },
+        { name: 'og:title', content: 'Buse Şenöz - Computer Engineer' },
+        { name: 'og:description', content: 'Buse Şenöz - Computer Engineer' },
+        { name: 'og:url', content: 'https://bssenoz.github.io/' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:image', content: 'https://bssenoz.github.io/android-icon-96x96.png' },
+        { name: 'og:image:width', content: '1200' },
+        { name: 'og:image:height', content: '630' },
         { name: 'msapplication-TileColor', content: '#ffffff' },
         { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
         { name: 'theme-color', content: '#ffffff' }
       ]
     }
   },
+
 
   nitro: {
     prerender: {
