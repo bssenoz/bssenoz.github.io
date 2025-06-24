@@ -61,7 +61,7 @@ const toggleLanguage = () => {
     <div class="max-w-[1310px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
-          <NuxtImg src="/favicon-96x96.png" alt="Buse Şenöz" class="w-12 h-12 sm:w-16 sm:h-16 cursor-pointer"  @click="scrollToTop"/>
+          <img src="@/assets/img/logo.png" alt="Buse Şenöz" class="w-12 h-12 sm:w-16 sm:h-16 cursor-pointer"  @click="scrollToTop"/>
         </div>
         
         <div class="hidden md:flex items-center space-x-4">
