@@ -78,8 +78,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: 'static',
     prerender: {
-      routes: ['/', '/en']
+      routes: ['/', '/en'],
+      ignore: ['/manifest.json']
     }
   },
 
