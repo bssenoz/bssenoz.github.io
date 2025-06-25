@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { locale, locales, t: $t } = useI18n()
+const router = useRouter()
 
 const mobileMenuOpen = ref(false)
 
@@ -52,7 +53,12 @@ const handleMobileNavClick = (sectionId: string) => {
 const toggleLanguage = () => {
   const currentLocale = locale.value
   const newLocale = currentLocale === 'tr' ? 'en' : 'tr'
-  locale.value = newLocale
+  
+  if (newLocale === 'en') {
+    router.push('/en')
+  } else {
+    router.push('/')
+  }
 }
 </script> 
 

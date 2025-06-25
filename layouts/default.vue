@@ -2,6 +2,8 @@
 import Navbar from '~/components/common/Navbar.vue'
 import Footer from '~/components/common/Footer.vue'
 
+const { locale } = useI18n()
+
 // Structured Data for SEO
 const structuredData = {
   "@context": "https://schema.org",
@@ -37,6 +39,9 @@ const structuredData = {
 }
 
 useHead({
+  htmlAttrs: {
+    lang: locale.value
+  },
   script: [
     {
       type: 'application/ld+json',

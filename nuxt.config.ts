@@ -7,9 +7,6 @@ export default defineNuxtConfig({
     baseURL: '/',
     head: {
       title: 'Buse Şenöz - Frontend Developer & Computer Engineer',
-      htmlAttrs: {
-        lang: 'tr'
-      },
       link: [
         { rel: "apple-touch-icon", sizes: "57x57", href: "/apple-icon-57x57.png" },
         { rel: "apple-touch-icon", sizes: "60x60", href: "/apple-icon-60x60.png" },
