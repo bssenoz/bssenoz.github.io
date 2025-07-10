@@ -30,7 +30,7 @@ const projects: Project[] = [
     icon: '🏥',
     category: 'personal',
     technologies: ['Nuxt.js', 'TypeScript', 'Vuetify'],
-    link: 'https://artirilmisdestek.sakarya.edu.tr/',
+    link: 'https://artibirdestek.sakarya.edu.tr/',
     type: 'webSite'
   },
   {
