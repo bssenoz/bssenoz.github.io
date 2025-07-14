@@ -100,7 +100,7 @@ const projects: Project[] = [
     icon: '🐠',
     category: 'professional',
     technologies: ['Nuxt.js', 'TypeScript', 'Tailwind'],
-    link: 'https://antalyaaquarium.bletandmore.com/',
+    link: 'https://antalyaaquarium.biletandmore.com',
     type: 'webSite'
   },
   {
