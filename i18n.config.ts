@@ -134,10 +134,10 @@ export default defineI18nConfig(() => ({
               description: 'Turizm odaklı projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak kullanıcı arayüzlerinin geliştirilmesine katkı sağlıyorum.'
             },
             baykar: {
-              title: 'Stajyer - Akıllı Web Sistemler',
+              title: 'Stajyer - Akıllı Web Sistemleri',
               company: 'Baykar Teknoloji',
               duration: 'Şubat 2024 - Mayıs 2024',
-              description: 'Akıllı Web Sistemler ekibinde uzun dönem staj yaptım. Bu süreçte React, Next.js, TypeScript, Tailwind ve Three.js ile modern arayüzler geliştirerek aktif projelere destek verdim.'
+              description: 'Akıllı Web Sistemleri ekibinde uzun dönem staj yaptım. Bu süreçte React, Next.js, TypeScript, Tailwind ve Three.js ile modern arayüzler geliştirerek aktif projelere destek verdim.'
             },
             birProjeDaha: {
               title: 'Freelance Frontend Geliştirici',
