@@ -17,7 +17,7 @@ const experiences: Experience[] = [
     companyKey: 'biletAndMore',
     durationKey: 'biletAndMore',
     descriptionKey: 'biletAndMore',
-    technologies: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Tailwind', 'Vuetify', 'Pinia']
+    technologies: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Tailwind', 'Vuetify', 'Pinia', 'PWA']
   },
   {
     id: 2,
