@@ -131,7 +131,7 @@ export default defineI18nConfig(() => ({
               title: 'Frontend Geliştirici',
               company: 'Bilet&More',
               duration: 'Temmuz 2024 - Devam',
-              description: 'Turizm odaklı projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak kullanıcı arayüzlerinin geliştirilmesine katkı sağlıyorum.'
+              description: 'Turizm sektöründe B2B ve B2C projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak ön yüzler geliştiriyor; CMS projelerinde de aktif olarak çalışıyorum.'
             },
             baykar: {
               title: 'Stajyer - Akıllı Web Sistemleri',
@@ -311,7 +311,7 @@ export default defineI18nConfig(() => ({
               title: 'Frontend Developer',
               company: 'Bilet&More',
               duration: 'July 2024 - Present',
-              description: 'I contribute to the development of user interfaces using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia in tourism-focused projects.'
+              description: 'I develop front-end interfaces for B2B and B2C tourism projects using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia, and actively contribute to CMS projects.'
             },
             baykar: {
               title: 'Intern - Smart Web Systems',
