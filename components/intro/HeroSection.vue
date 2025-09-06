@@ -51,7 +51,7 @@ const scrollToSection = (sectionId: string) => {
               <pre class="text-xs sm:text-sm font-mono text-dark-800 dark:text-dark-200 overflow-x-auto"><code>const developer = {
   name: '{{ $t('hero.codeExample.name') }}',
   role: '{{ $t('hero.codeExample.role') }}',
-  skills: ['Vue.js', 'Nuxt.js', 'React', 'TypeScript'],
+  skills: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Node.js'],
   passion: '{{ $t('hero.codeExample.passion') }}'
 };
 

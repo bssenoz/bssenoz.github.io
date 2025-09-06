@@ -21,8 +21,8 @@ export default defineI18nConfig(() => ({
           contactMe: 'İletişime Geç',
           codeExample: {
             name: 'Buse Şenöz',
-            role: 'Frontend Developer',
-            skills: ['Vue.js', 'Nuxt.js', 'React', 'TypeScript'],
+            role: 'Software Developer',
+            skills: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Node.js'],
             passion: 'Modern Web Apps',
             ready: '🚀 Ready to code!'
           }
@@ -32,7 +32,7 @@ export default defineI18nConfig(() => ({
         about: {
           title: 'Hakkımda',
           subtitle: 'Kariyer yolculuğum ve kişisel gelişimim hakkında daha fazla bilgi.',
-          description1: 'Merhaba! Ben Buse Şenöz, Sakarya Üniversitesi Bilgisayar Mühendisliği mezunu bir frontend geliştiriciyim. JavaScript ve frameworklerinde uzmanlaşmış durumdayım, kullanıcı deneyimini ön planda tutan uygulamalar geliştiriyorum.',
+          description1: 'Merhaba! Ben Buse Şenöz, Sakarya Üniversitesi Bilgisayar Mühendisliği mezunu bir yazılım geliştiricisiyim. Ağırlıklı olarak frontend tarafında deneyim kazandım ancak full stack geliştirme alanında kendimi geliştirmeye odaklanıyorum. JavaScript ve popüler frameworkler üzerinde aktif olarak çalışıyor, kullanıcı deneyimini ve sürdürülebilir yazılım mimarisini ön planda tutuyorum.',
           description2: 'Kurumsal ve freelance projelerde çalışarak farklı sektörlerde deneyim kazandım. Teknoloji dünyasındaki değişimleri yakından takip ediyor, sürekli öğrenmeye ve gelişmeye odaklanıyorum. Takım çalışmasına değer veriyor ve projelerde aktif rol almayı seviyorum.',
           education: 'Eğitim',
           university: 'Sakarya Üniversitesi',
@@ -128,31 +128,31 @@ export default defineI18nConfig(() => ({
           years: 'yıl',
           data: {
             biletAndMore: {
-              title: 'Frontend Geliştirici',
+              title: 'Software Developer',
               company: 'Bilet&More',
               duration: 'Temmuz 2024 - Devam',
               description: 'Turizm sektöründe B2B ve B2C projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak ön yüzler geliştiriyor; CMS projelerinde de aktif olarak çalışıyorum.'
             },
             baykar: {
-              title: 'Stajyer - Akıllı Web Sistemleri',
+              title: 'Stajyer - Web Yazılım Teknolojileri',
               company: 'Baykar Teknoloji',
               duration: 'Şubat 2024 - Mayıs 2024',
-              description: 'Akıllı Web Sistemleri ekibinde uzun dönem staj yaptım. Bu süreçte React, Next.js, TypeScript, Tailwind ve Three.js ile modern arayüzler geliştirerek aktif projelere destek verdim.'
+              description: 'Web Yazılım Teknolojileri ekibinde uzun dönem staj yaptım. Bu süreçte React, Next.js, Node.js, TypeScript, Tailwind ve Three.js ile modern arayüzler geliştirerek aktif projelere destek verdim.'
             },
             birProjeDaha: {
-              title: 'Freelance Frontend Geliştirici',
+              title: 'Freelance Software Developer',
               company: 'BirProjeDaha',
               duration: 'Haziran 2022 - Şubat 2024',
               description: 'Turizm sektöründe yazılım çözümleri geliştiren bir ekiple freelance olarak çalıştım. Vue.js, Nuxt.js, TypeScript, Vuetify, Bulma, Pinia ve Vuex gibi teknolojilerle projelerde aktif rol aldım.'
             },
             sausem: {
-              title: 'Kısmi Zamanlı Frontend Geliştirici',
+              title: 'Kısmi Zamanlı Software Developer',
               company: 'SAÜSEM - Sakarya Üniversitesi',
               duration: 'Kasım 2022 - Şubat 2023',
               description: 'Kurum içi etkileşimi artırmayı amaçlayan bir platformun arayüzünü Vue.js ile geliştirdim. Proje, çalışanlar arası yardımlaşmayı kolaylaştırmayı hedefliyordu.'
             },
             bgoTeam: {
-              title: 'Gönüllü Frontend Geliştirici',
+              title: 'Gönüllü Software Developer',
               company: 'BGO Team',
               duration: 'Temmuz 2022 - Kasım 2022',
               description: 'BGO Team ile gönüllü olarak çalışarak freepsiko-front projesinde React, JavaScript ve CSS teknolojileri kullanarak frontend geliştirme çalışmalarına katkı sağladım.'
@@ -201,7 +201,7 @@ export default defineI18nConfig(() => ({
           contactMe: 'Contact Me',
           codeExample: {
             name: 'Buse Şenöz',
-            role: 'Frontend Developer',
+            role: 'Software Developer',
             skills: ['Vue.js', 'Nuxt.js', 'React', 'TypeScript'],
             passion: 'Modern Web Apps',
             ready: '🚀 Ready to code!'
@@ -212,7 +212,7 @@ export default defineI18nConfig(() => ({
         about: {
           title: 'About Me',
           subtitle: 'More information about my career journey and personal development.',
-          description1: 'Hello! I\'m Buse Şenöz, a frontend developer who graduated from Sakarya University Computer Engineering. I specialize in JavaScript and frameworks, developing applications that prioritize user experience.',
+          description1: 'Hello! I’m Buse Şenöz, a software developer graduated from Sakarya University with a degree in Computer Engineering. I have primarily gained experience in frontend development, but I am focused on expanding my skills in full stack development. I work actively with JavaScript and popular frameworks, prioritizing user experience and sustainable software architecture.',
           description2: 'I gained experience in different sectors by working on corporate and freelance projects. I closely follow the changes in the technology world and focus on continuous learning and development. I value teamwork and enjoy taking an active role in projects.',
           education: 'Education',
           university: 'Sakarya University',
@@ -308,31 +308,31 @@ export default defineI18nConfig(() => ({
           years: 'years',
           data: {
             biletAndMore: {
-              title: 'Frontend Developer',
+              title: 'Software Developer',
               company: 'Bilet&More',
               duration: 'July 2024 - Present',
               description: 'I develop front-end interfaces for B2B and B2C tourism projects using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia, and actively contribute to CMS projects.'
             },
             baykar: {
-              title: 'Intern - Smart Web Systems',
+              title: 'Intern - Web Software Technologies',
               company: 'Baykar Technology',
               duration: 'February 2024 - May 2024',
-              description: 'I completed a long-term internship in the Smart Web Systems team. During this process, I developed modern interfaces using React, Next.js, TypeScript, Tailwind, and Three.js, providing support to active projects.'
+              description: 'I completed a long-term internship in the Web Software Technologies team. During this process, I developed modern interfaces using React, Next.js, Node.js, TypeScript, Tailwind, and Three.js, providing support to active projects.'
             },
             birProjeDaha: {
-              title: 'Freelance Frontend Developer',
+              title: 'Freelance Software Developer',
               company: 'BirProjeDaha',
               duration: 'June 2022 - February 2024',
               description: 'I worked as a freelancer with a team developing software solutions in the tourism sector. I took an active role in projects with technologies such as Vue.js, Nuxt.js, TypeScript, Vuetify, Bulma, Pinia, and Vuex.'
             },
             sausem: {
-              title: 'Part-time Frontend Developer',
+              title: 'Part-time Software Developer',
               company: 'SAUSEM - Sakarya University',
               duration: 'November 2022 - February 2023',
               description: 'I developed the interface of a platform aimed at increasing internal interaction using Vue.js. The project aimed to facilitate collaboration among employees.'
             },
             bgoTeam: {
-              title: 'Volunteer Frontend Developer',
+              title: 'Volunteer Software Developer',
               company: 'BGO Team',
               duration: 'July 2022 - November 2022',
               description: 'I worked voluntarily with BGO Team, contributing to frontend development work in the freepsiko-front project using React, JavaScript, and CSS technologies.'

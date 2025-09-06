@@ -25,7 +25,7 @@ const experiences: Experience[] = [
     companyKey: 'baykar',
     durationKey: 'baykar',
     descriptionKey: 'baykar',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js']
+    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js', 'Node.js']
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const experiences: Experience[] = [
     companyKey: 'sausem',
     durationKey: 'sausem',
     descriptionKey: 'sausem',
-    technologies: ['Vue.js', 'JavaScript']
+    technologies: ['Vue.js', 'JavaScript', 'MySQL']
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const experiences: Experience[] = [
     companyKey: 'bgoTeam',
     durationKey: 'bgoTeam',
     descriptionKey: 'bgoTeam',
-    technologies: ['React', 'JavaScript', 'CSS', 'HTML']
+    technologies: ['React', 'JavaScript', 'Redux']
   }
 ]
 </script>

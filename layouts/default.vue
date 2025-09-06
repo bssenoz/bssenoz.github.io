@@ -9,8 +9,8 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Buse Şenöz",
-  "jobTitle": "Frontend Developer & Computer Engineer",
-  "description": "Frontend Developer specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer with experience in modern web technologies.",
+  "jobTitle": "Software Developer & Computer Engineer",
+  "description": "Software Developer with experience in modern web technologies, specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer focused on building scalable and maintainable applications.",
   "url": "https://bssenoz.github.io/",
   "image": "https://bssenoz.github.io/meta-logo.png",
   "sameAs": [
@@ -34,7 +34,7 @@ const structuredData = {
   "worksFor": {
     "@type": "Organization", 
     "name": "Bilet&More",
-    "jobTitle": "Frontend Developer"
+    "jobTitle": "Software Developer"
   }
 }
 

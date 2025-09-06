@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
-      title: 'Buse Şenöz - Frontend Developer & Computer Engineer',
+      title: 'Buse Şenöz - Software Developer & Computer Engineer',
       link: [
         { rel: "apple-touch-icon", sizes: "57x57", href: "/apple-icon-57x57.png" },
         { rel: "apple-touch-icon", sizes: "60x60", href: "/apple-icon-60x60.png" },
@@ -30,30 +30,30 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
-        { name: 'description', content: 'Buse Şenöz - Frontend Developer specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer with experience in modern web technologies.' },
-        { name: 'keywords', content: 'Buse Şenöz, Frontend Developer, Vue.js, Nuxt.js, React, TypeScript, JavaScript, Web Development, Computer Engineer, Turkey, Portfolio, Web Developer' },
+        { name: 'description', content: 'Buse Şenöz - Software Developer with experience in modern web technologies, specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer focused on building scalable and maintainable applications.' },
+        { name: 'keywords', content: 'Buse Şenöz, Software Developer, Vue.js, Nuxt.js, React, TypeScript, JavaScript, Node.js, Web Development, Computer Engineer, Turkey, Portfolio, Web Developer' },
         { name: 'author', content: 'Buse Şenöz' },
         { name: 'generator', content: 'Nuxt.js' },
         
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://bssenoz.github.io/' },
-        { property: 'og:title', content: 'Buse Şenöz - Frontend Developer & Computer Engineer' },
-        { property: 'og:description', content: 'Frontend Developer specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer with experience in modern web technologies.' },
+        { property: 'og:title', content: 'Buse Şenöz - Software Developer & Computer Engineer' },
+        { property: 'og:description', content: 'Software Developer with experience in modern web technologies, specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript. Computer Engineer focused on building scalable and maintainable applications.' },
         { property: 'og:image', content: 'https://bssenoz.github.io/meta-logo.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
-        { property: 'og:image:alt', content: 'Buse Şenöz - Frontend Developer' },
+        { property: 'og:image:alt', content: 'Buse Şenöz - Software Developer' },
         { property: 'og:site_name', content: 'Buse Şenöz Portfolio' },
         { property: 'og:locale', content: 'tr_TR' },
         
         // Twitter
         { property: 'twitter:card', content: 'summary_large_image' },
         { property: 'twitter:url', content: 'https://bssenoz.github.io/' },
-        { property: 'twitter:title', content: 'Buse Şenöz - Frontend Developer & Computer Engineer' },
-        { property: 'twitter:description', content: 'Frontend Developer specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript.' },
+        { property: 'twitter:title', content: 'Buse Şenöz - Software Developer & Computer Engineer' },
+        { property: 'twitter:description', content: 'Software Developer with experience in modern web technologies, specializing in JavaScript, Vue.js, Nuxt.js, React, and TypeScript.' },
         { property: 'twitter:image', content: 'https://bssenoz.github.io/meta-logo.png' },
-        { property: 'twitter:image:alt', content: 'Buse Şenöz - Frontend Developer' },
+        { property: 'twitter:image:alt', content: 'Buse Şenöz - Software Developer' },
         { property: 'twitter:creator', content: '@bssenoz' },
         
         // Additional SEO
