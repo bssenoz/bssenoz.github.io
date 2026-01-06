@@ -11,8 +11,16 @@ interface Experience {
 }
 
 const experiences: Experience[] = [
-  {
+{
     id: 1,
+    titleKey: 'coolDigital',
+    companyKey: 'coolDigital',
+    durationKey: 'coolDigital',
+    descriptionKey: 'coolDigital',
+    technologies: ['Vue.js', 'TypeScript', 'Linux']
+  },
+  {
+    id: 2,
     titleKey: 'biletAndMore',
     companyKey: 'biletAndMore',
     durationKey: 'biletAndMore',
@@ -20,7 +28,7 @@ const experiences: Experience[] = [
     technologies: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Tailwind', 'Vuetify', 'Pinia', 'PWA']
   },
   {
-    id: 2,
+    id: 3,
     titleKey: 'baykar',
     companyKey: 'baykar',
     durationKey: 'baykar',
@@ -28,7 +36,7 @@ const experiences: Experience[] = [
     technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js', 'Node.js']
   },
   {
-    id: 3,
+    id: 4,
     titleKey: 'birProjeDaha',
     companyKey: 'birProjeDaha',
     durationKey: 'birProjeDaha',
@@ -36,7 +44,7 @@ const experiences: Experience[] = [
     technologies: ['Vue.js', 'Nuxt.js', 'TypeScript', 'Vuetify', 'Bulma', 'Pinia', 'Vuex']
   },
   {
-    id: 4,
+    id: 5,
     titleKey: 'sausem',
     companyKey: 'sausem',
     durationKey: 'sausem',
@@ -44,7 +52,7 @@ const experiences: Experience[] = [
     technologies: ['Vue.js', 'JavaScript', 'MySQL']
   },
   {
-    id: 5,
+    id: 6,
     titleKey: 'bgoTeam',
     companyKey: 'bgoTeam',
     durationKey: 'bgoTeam',

@@ -127,10 +127,16 @@ export default defineI18nConfig(() => ({
           months: 'ay',
           years: 'yıl',
           data: {
+            coolDigital: {
+              title: 'Software Developer',
+              company: 'Cool Digital Solutions',
+              duration: 'Kasım 2025 - Devam',
+              description: ''
+            },
             biletAndMore: {
               title: 'Software Developer',
               company: 'Bilet&More',
-              duration: 'Temmuz 2024 - Devam',
+              duration: 'Temmuz 2024 - Kasım 2025',
               description: 'Turizm sektöründe B2B ve B2C projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak ön yüzler geliştiriyor; CMS projelerinde de aktif olarak çalışıyorum.'
             },
             baykar: {
@@ -307,10 +313,16 @@ export default defineI18nConfig(() => ({
           months: 'months',
           years: 'years',
           data: {
+            coolDigital: {
+              title: 'Software Developer',
+              company: 'Cool Digital Solutions',
+              duration: 'November 2025 - Present',
+              description: ''
+            },
             biletAndMore: {
               title: 'Software Developer',
               company: 'Bilet&More',
-              duration: 'July 2024 - Present',
+              duration: 'July 2024 - November 2025',
               description: 'I develop front-end interfaces for B2B and B2C tourism projects using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia, and actively contribute to CMS projects.'
             },
             baykar: {

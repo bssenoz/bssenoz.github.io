@@ -33,7 +33,7 @@ const structuredData = {
   },
   "worksFor": {
     "@type": "Organization", 
-    "name": "Bilet&More",
+    "name": "Cool Digital Solutions",
     "jobTitle": "Software Developer"
   }
 }
