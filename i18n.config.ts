@@ -115,6 +115,10 @@ export default defineI18nConfig(() => ({
             crystalHotels: {
               title: 'Crystal Hotels',
               description: 'Kapsamlı içerik yapısına sahip, otel grubu için hazırlanmış web arayüzü.'
+            },
+            imwf: {
+              title: 'IMWF',
+              description: 'MICE ve düğün turizmi profesyonellerini bir araya getiren etkinlik platformu.'
             }
           }
         },
@@ -130,14 +134,14 @@ export default defineI18nConfig(() => ({
             coolDigital: {
               title: 'Software Developer',
               company: 'Cool Digital Solutions',
-              duration: 'Kasım 2025 - Devam',
-              description: ''
+              duration: 'Kasım 2025 - Şubat 2026',
+              description: 'Entrapeer adlı yapay zeka destekli inovasyon araştırma platformunda, Vue.js ile Figma tasarımlarını responsive arayüzlere dönüştürerek, API entegrasyonları ve yeniden kullanılabilir bileşenlerle ölçeklenebilir bir frontend mimarisi geliştirdim.'
             },
             biletAndMore: {
               title: 'Software Developer',
               company: 'Bilet&More',
               duration: 'Temmuz 2024 - Kasım 2025',
-              description: 'Turizm sektöründe B2B ve B2C projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak ön yüzler geliştiriyor; CMS projelerinde de aktif olarak çalışıyorum.'
+              description: 'Turizm sektöründe B2B ve B2C projelerde Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify ve Pinia kullanarak arayüzler geliştirdim ve CMS tabanlı projelere katkı sağladım.'
             },
             baykar: {
               title: 'Stajyer - Web Yazılım Teknolojileri',
@@ -301,6 +305,10 @@ export default defineI18nConfig(() => ({
             crystalHotels: {
               title: 'Crystal Hotels',
               description: 'Web interface prepared for hotel group with comprehensive content structure.'
+            },
+            imwf: {
+              title: 'IMWF - International MICE & Wedding Forum',
+              description: 'Event platform bringing together international MICE and wedding tourism professionals.'
             }
           }
         },
@@ -316,14 +324,14 @@ export default defineI18nConfig(() => ({
             coolDigital: {
               title: 'Software Developer',
               company: 'Cool Digital Solutions',
-              duration: 'November 2025 - Present',
-              description: ''
+              duration: 'November 2025 - February 2026',
+              description: 'At Entrapeer, an AI-powered innovation research platform, I built responsive Vue.js interfaces from Figma and implemented API integrations and reusable components to support a scalable, high-performance frontend.'
             },
             biletAndMore: {
               title: 'Software Developer',
               company: 'Bilet&More',
               duration: 'July 2024 - November 2025',
-              description: 'I develop front-end interfaces for B2B and B2C tourism projects using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia, and actively contribute to CMS projects.'
+              description: 'I developed front-end interfaces for B2B and B2C tourism projects using Vue.js, Nuxt.js, TypeScript, Tailwind, Vuetify, and Pinia, and contributed to CMS-based projects.'
             },
             baykar: {
               title: 'Intern - Web Software Technologies',

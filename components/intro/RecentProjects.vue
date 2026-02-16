@@ -54,6 +54,16 @@ const projects: Project[] = [
     type: 'webSite'
   },
   {
+    id: 13,
+    titleKey: 'imwf',
+    descriptionKey: 'imwf',
+    icon: '🌍',
+    category: 'professional',
+    technologies: ['Nuxt.js', 'TypeScript', 'Tailwind'],
+    link: 'https://imwf.com/tr',
+    type: 'webSite'
+  },
+  {
     id: 12,
     titleKey: 'marcoPolo',
     descriptionKey: 'marcoPolo',
@@ -143,7 +153,7 @@ const projects: Project[] = [
     technologies: ['Nuxt.js', 'JavaScript', 'Bootstrap'],
     link: 'https://crystalhotels.com.tr/',
     type: 'webSite'
-  }
+  },
 ]
 
 const filteredProjects = computed((): Project[] => {
